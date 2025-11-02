@@ -1,0 +1,30 @@
+---
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Layout from "@/layouts/Layout.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+import { basics } from "@/cv.json";
+const { name, label } = basics;
+---
+
+<Layout title="Porfolio AgustinGil">
+	<main class="bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
+		<Hero />
+		<About />
+		<Skills />
+		<Projects />
+		<Education />
+	</main>
+</Layout>
+
+<style>
+	main{
+	font-family: 'JetBrains Mono', monospace;
+		padding: 4rem;
+		margin: auto;
+		width:100%
+	}
+</style>

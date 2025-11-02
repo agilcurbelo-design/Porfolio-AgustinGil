@@ -1,0 +1,207 @@
+{
+  "basics": {
+    "name": "Agustin Gil",
+    "label": "Knowledge in web and backend development: HTML5, CSS3, JavaScript, Bootstrap 5, React, Java, C#, .NET, and SQL Server. Self-taught and eager to apply skills in real-world projects.",
+    "image": "/public/me.jpeg",
+    "email": "nahuelgil98@gmail.com",
+    "phone": "(+598) 93 700 567",
+    "url": "https://johndoe.com",
+    "summary": "I'm currently studying Programmer Analyst at ORT University, with training in web and backend development. I have knowledge of HTML5, CSS3, JavaScript, Bootstrap 5, React, Java, C#, .NET, and SQL Server. I'm passionate about technology, continuous learning, and building functional, well-designed solutions.",
+    "location": {
+      "address": "",
+      "postalCode": "15100",
+      "city": "Salinas",
+      "countryCode": "UY",
+      "region": "Canelones"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "nahuelgilcurbelo",
+        "url": "https://www.linkedin.com/in/nahuelgilcurbelo"
+      },
+      {
+        "network": "GitHub",
+        "username": "NahuelGil17",
+        "url": "https://github.com/NahuelGil17"
+      }
+    ]
+  },
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ORT University",
+      "url": "https://www.ort.edu.uy/",
+      "area": "Engineering",
+      "studyType": "Programmer Analyst",
+      "startDate": "2024-01-01",
+      "endDate": "2026-01-01",
+      "score": "86",
+      "courses": [
+        "Programmer Analyst"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": [
+        "Web development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Mid",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Mid",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+
+    {
+      "name": "Node",
+      "level": "Learning",
+      "keywords": [
+        "Web development",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Mid",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Database",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Mid",
+      "keywords": [
+        "Version control",
+        "Collaboration",
+        "Source code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Mid",
+      "keywords": [
+        "Version control",
+        "Collaboration",
+        "Source code",
+        "Git"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Learning",
+      "keywords": [
+        "Web development",
+        "Frontend",
+        "Angular Framework",
+        "SSR",
+        "Material",
+        "NgXs",
+        "RxJS",
+        "Clean Architecture",
+        "Firebase",
+        "Ionic"
+      ]
+    },
+
+    {
+      "name": "MongoDB",
+      "level": "Mid",
+      "keywords": [
+        "Web development",
+        "Backend",
+        "Database",
+        "NoSQL",
+        "Document Oriented"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+   
+  ]
+}

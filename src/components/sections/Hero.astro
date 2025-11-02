@@ -1,0 +1,146 @@
+---
+import { basics } from "@cv";
+
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import { record } from "astro:schema";
+import X from "@/icons/X.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region } = location;
+const SOCIAL_ICONS: Record<string, any> = {
+    GitHub,
+    LinkedIn,
+    X,
+};
+---
+
+<Section>
+    <div class="container">
+        <div class="info">
+            <h1>{name}</h1>
+            <h2>{label}</h2>
+
+            <span>
+                <WorldMap />
+                {city}, {region}
+            </span>
+            <footer>
+                {
+                    email && (
+                        <a
+                            href={`mailto:${email}`}
+                            title={`Enviar Email a ${name} al correo ${email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Mail />
+                        </a>
+                    )
+                }
+                {
+                    phone && (
+                        <a
+                            href={`tel:${phone}`}
+                            title={`Llamar a ${name} al teléfono ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Phone />
+                        </a>
+                    )
+                }
+
+                {
+                    profiles.map((profile) => {
+                        const Icon = SOCIAL_ICONS[profile.network];
+                        return (
+                            <a
+                                href={profile.url}
+                                title={`Visitar ${profile.network} de ${name}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        );
+                    })
+                }
+            </footer>
+        </div>
+        <figure>
+            <img src={image} alt={name} />
+        </figure>
+    </div>
+</Section>
+<style>
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 25px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    h2 {
+        color: #444;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-wrap: balance;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 128px;
+        border-radius: 6px;
+    }
+    span {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.85rem;
+        letter-spacing: -0.05rem;
+        color: #666;
+    }
+    footer {
+        color: #555;
+        font-size: 0.65rem;
+        display: flex;
+        gap: 4px;
+        margin-top: 8px;
+    }
+    footer a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border: 1px solid #eee;
+        padding: 4px;
+        border-radius: 6px;
+        transition: all 0.3s;
+        color: #777;
+        transition:
+            background-color 0.3s,
+            color 0.3s;
+    }
+    footer a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+</style>

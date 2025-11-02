@@ -1,0 +1,19 @@
+---
+import Section from "@/components/Section.astro";
+import { basics } from "@cv";
+const { summary } = basics; 
+---
+<Section title="About me">
+    <p>
+        {summary}
+    </p>
+</Section>
+
+<style>
+p {
+    margin-top: 8px;
+    line-height: 1.6rem;
+    color: #555;
+}
+
+</style>

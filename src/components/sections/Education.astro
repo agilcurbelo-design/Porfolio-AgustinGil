@@ -1,0 +1,10 @@
+---
+import Section from "@/components/Section.astro";
+import { education } from "@cv";
+const { courses, area, institution, startDate, endDate, } = education[0];
+---
+<Section title="Education">
+    <p>
+      Currently pursuing a degree in {courses} in {area} at {institution} ({startDate} - {endDate})
+    </p>
+</Section>
