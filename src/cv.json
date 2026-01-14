@@ -2,9 +2,9 @@
   "basics": {
     "name": "Agustin Gil",
     "label": "Knowledge in web and backend development: HTML5, CSS3, JavaScript, Bootstrap 5, React, Java, C#, .NET, and SQL Server. Self-taught and eager to apply skills in real-world projects.",
-    "image": "/public/me.jpeg",
-    "email": "nahuelgil98@gmail.com",
-    "phone": "(+598) 93 700 567",
+    "image": "/public/me.png",
+    "email": "agustin.gi.curbelo@gmail.com",
+    "phone": "(+598) 93 549 754",
     "url": "https://johndoe.com",
     "summary": "I'm currently studying Programmer Analyst at ORT University, with training in web and backend development. I have knowledge of HTML5, CSS3, JavaScript, Bootstrap 5, React, Java, C#, .NET, and SQL Server. I'm passionate about technology, continuous learning, and building functional, well-designed solutions.",
     "location": {
@@ -17,29 +17,17 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "nahuelgilcurbelo",
-        "url": "https://www.linkedin.com/in/nahuelgilcurbelo"
+        "username": "Agustin Gil",
+        "url": "https://www.linkedin.com/in/agustin-gil-726200313/"
       },
       {
         "network": "GitHub",
-        "username": "NahuelGil17",
-        "url": "https://github.com/NahuelGil17"
+        "username": "agilcurbelo-design",
+        "url": "https://github.com/agilcurbelo-design"
       }
     ]
-  },
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
-  ],
+  }
+,
   "education": [
     {
       "institution": "ORT University",
@@ -47,38 +35,15 @@
       "area": "Engineering",
       "studyType": "Programmer Analyst",
       "startDate": "2024-01-01",
-      "endDate": "2026-01-01",
-      "score": "86",
+      "endDate": "2027-01-01",
       "courses": [
         "Programmer Analyst"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }
-  ],
+
+
+
   "skills": [
     {
       "name": "HTML",
@@ -183,25 +148,38 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Middle-Advanced"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
+
   "projects": [
-   
+    {
+      "name": "Projects made in ORT University",
+      "startDate": "2025-10-20",
+      "endDate": "2025-11-21",
+      "isActive": true,
+      "description": "This project is a management system I developed as a full-stack developer, designed with a focus on clean, logical solutions that align with program requirements. While not fully completed—since certain non-essential features were intentionally left out—it demonstrates my ability to deliver maintainable and scalable code. The system is built primarily in C#, applying solid architectural principles to ensure clarity and robustness. I also designed and implemented a custom MySQL database to handle and structure the project’s data, showcasing my skills in both backend development and database design.",
+      "highlights": [
+        "Freelance expirience",
+        "Fullstack role",
+        "Lead Technical project",
+        "C#"
+      ],
+      "url": "https://github.com/agilcurbelo-design/ObligatorioP3"
+    },
+    {
+      "name": "WeateherNow - Weather WebApp",
+      "startDate": "2025-10-20",
+      "endDate": "2025-10-21",
+      "isActive": true,
+      "description": "Gym App is an application designed for small gyms with the purpose of providing a platform where users' routines can be displayed on screen. These routines will dynamically change depending on the time the user visits the gym.",
+      "highlights": [
+        "Freelance expirience",
+        "Fullstack role",
+        "Lead Technical project",
+        "C#"
+      ],
+      "url": "https://github.com/agilcurbelo-design/WeateherNow"
+    }
   ]
 }

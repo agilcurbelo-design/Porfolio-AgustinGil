@@ -1,5 +1,62 @@
 ---
 import Section from "@/components/Section.astro";
+import { projects } from "@cv";
+import { promise } from "astro:schema";
 ---
+
 <Section title="Projects">
+    <ul>
+        {
+            projects.map(({ url, description, highlights, name, isActive }) => {
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <a href={url} title="View Project ${name}" />
+                                <h3>{name}</h3>
+                                <p>{description}</p>
+                            </header>
+                            <footer>
+                                <ul>
+                                    {highlights.map((highlight) => {
+                                        return <li>{highlight}</li>;
+                                    })}
+                                </ul>
+                            </footer>
+                        </article>
+                    </li>
+                );
+            })
+        }
+    </ul>
 </Section>
+
+<style>
+    ul {
+        display: grid;
+        grid-template-columns: repeat (auto-fill, minmax(200px, 1fr));
+    }
+    article {
+        border-radius: 8px;
+        border: 1px solid var(#f2f2f2);
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        height: 100%;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        font-size: 0.6rem;
+    }
+    footer span {
+        border-radius: 6px;
+        background: #eee;
+        color: black;
+        font-size:  0.8rem;
+        font-weight: 500
+        padding: 0.25rem 0.5rem;
+    }
+</style>
