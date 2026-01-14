@@ -156,7 +156,7 @@
     {
       "name": "Projects made in ORT University",
       "startDate": "2025-10-20",
-      "endDate": "2025-11-21",
+      "endDate": "2025-11-22",
       "isActive": true,
       "description": "This project is a management system I developed as a full-stack developer, designed with a focus on clean, logical solutions that align with program requirements. While not fully completed—since certain non-essential features were intentionally left out—it demonstrates my ability to deliver maintainable and scalable code. The system is built primarily in C#, applying solid architectural principles to ensure clarity and robustness. I also designed and implemented a custom MySQL database to handle and structure the project’s data, showcasing my skills in both backend development and database design.",
       "highlights": [
@@ -177,7 +177,7 @@
         "Freelance expirience",
         "Fullstack role",
         "Lead Technical project",
-        "C#"
+        "JavaScript"
       ],
       "url": "https://github.com/agilcurbelo-design/WeateherNow"
     }
